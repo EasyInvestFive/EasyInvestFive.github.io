@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta HTTP-EQUIV="REFRESH" CONTENT="1;URL=/en/">
+    <script>
+        var lang = navigator.language || navigator.browserLanguage;
+        if(/ru/.test(lang))
+            window.location.href = './ru/';
+        else
+            window.location.href = './en/';
+    </script>
+</head>
+<body>
+If the page is not reloaded automatically, please follow the <a href="./en/">link</a>.
+</body>
+</html>
